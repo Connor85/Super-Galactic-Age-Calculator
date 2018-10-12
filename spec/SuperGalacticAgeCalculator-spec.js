@@ -1,11 +1,13 @@
 import { SuperGalacticAgeCalculator } from "../src/SuperGalacticAgeCalculator.js";
 describe("SuperGalacticAgeCalculator", function() {
   let globalTestAge = new SuperGalacticAgeCalculator("1992-10-12", 26);
-  // it("returns the users age on earth in seconds", function() {
-  //   expect(globalTestAge.ageInSeconds()).toEqual(
-  //     Math.floor((Date.now() - userBirthday.getTime()) / 1000)
-  //   );
-  // });
+  it("returns the users age on earth in seconds", function() {
+    let today = new Date();
+    let testDate = new Date(globalTestAge.birthday);
+    expect(globalTestAge.ageInSeconds()).toEqual(
+      Math.floor((today.getTime() - testDate.getTime()) / 1000)
+    );
+  });
   it("returns the users age in earth years", function() {
     expect(globalTestAge.ageOnEarth()).toEqual(26);
   });
