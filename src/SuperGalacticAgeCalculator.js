@@ -34,4 +34,28 @@ export class SuperGalacticAgeCalculator {
     let jupiterYears = Math.round(this.age / 11.86);
     return jupiterYears;
   }
+
+  yearsLeftOnEarth() {
+    let yearsOnEarth = this.lifeExpectancy - this.age;
+    return yearsOnEarth;
+  }
+
+  yearsLeftOnMercury() {
+    let yearsOnMercury = (this.lifeExpectancy - this.age) / 0.24;
+    return yearsOnMercury;
+  }
+
+  yearsLeftOnVenus() {
+    let yearsOnVenus = Math.round((this.lifeExpectancy - this.age) / 0.62);
+    return yearsOnVenus;
+  }
+
+  yearsLeftOnMars() {
+    let yearsOnMars = Math.round((this.lifeExpectancy - this.age) / 1.88);
+    return yearsOnMars;
+  }
+  yearsLeftOnJupiter() {
+    let yearsOnJupiter = Math.round((this.lifeExpectancy - this.age) / 11.86);
+    return yearsOnJupiter;
+  }
 }

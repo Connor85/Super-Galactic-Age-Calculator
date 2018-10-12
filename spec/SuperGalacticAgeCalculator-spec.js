@@ -51,18 +51,18 @@ describe("SuperGalacticAgeCalculator", function() {
   });
 
   it("returns the users years left on Mercury", function() {
-    expect(globalTestAge.yearsLeftOnMercury()).toEqual(-28);
+    expect(globalTestAge.yearsLeftOnMercury()).toEqual(225);
   });
 
   it("returns the users years left on Venus", function() {
-    expect(globalTestAge.yearsLeftOnVenus()).toEqual(38);
+    expect(globalTestAge.yearsLeftOnVenus()).toEqual(87);
   });
 
   it("returns the users years left on Mars", function() {
-    expect(globalTestAge.yearsLeftOnMars()).toEqual(66);
+    expect(globalTestAge.yearsLeftOnMars()).toEqual(29);
   });
 
   it("returns the users years left on Jupiter", function() {
-    expect(globalTestAge.yearsLeftOnJupiter()).toEqual(78);
+    expect(globalTestAge.yearsLeftOnJupiter()).toEqual(5);
   });
 });
