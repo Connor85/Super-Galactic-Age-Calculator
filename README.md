@@ -1,10 +1,6 @@
-# \_Super Galactic Age Calculator
+# \_Super Galactic Age Calculator\_
 
-\_
-
-#### \_Super Galactic Age Calculator
-
-, Oct. 12, 2018\_
+#### \_Super Galactic Age Calculator, Oct. 12, 2018\_
 
 #### By _**Conor McCarthy**_
 
