@@ -7,22 +7,52 @@
 </head>
 
 <body>
-  <h1>Super Galatic Age Calculator</h1>
-  <form id="formDate">
-    <label for="age">Enter Your Age:</label>
-    <input id="age" type="number" name="age">
-    <button type="submit">Submit</button>
-  </form>
-
-
-  <h4>Age on Mercury: <p id="mercuryAge"></p>
-  </h4>
-  <h4>Age on Venus: <p id="venusAge"></p>
-  </h4>
-  <h4>Age on Mars: <p id="marsAge"></p>
-  </h4>
-  <h4>Age on Jupiter: <p id="jupiterAge"></p>
-  </h4>
+  <div class="container">
+    <h1>Super Galatic Age Calculator</h1>
+    <div class="row">
+      <div class="col-md-12">
+        <form class="form-control" id="formDate">
+          <label for="age">Enter Your Age On Earth</label>
+          <input id="age" class="form-control" type="number" name="age">
+          <button class="btn btn btn-info" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <h3>Mercury</h3>
+        <img src="https://www.nationalgeographic.com/content/dam/science/2018/08/22/mercury/01_mercury_pia15190_orig.ngsversion.1534971936294.jpg"
+          alt="an image of mercury">
+        <h4>Age on Mercury:</h4>
+        <p id="mercuryAge"></p>
+      </div>
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-5">
+        <h3>Venus</h3>
+        <img src="https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2018/venusplanet.jpg" alt="Image of Venus">
+        <h4>Age on Venus:</h4>
+        <p id="venusAge"></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <h3>Mars</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="Image of mars">
+        <h4>Age on Mars:</h4>
+        <p id="marsAge"></p>
+      </div>
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-5">
+        <h3>Jupiter</h3>
+        <img src="https://media.wired.com/photos/5926e352cfe0d93c47431b49/master/w_2400,c_limit/GettyImages-83652693-s.jpg"
+          alt="image of Jupiter">
+        <h4>Age on Jupiter:</h4>
+        <p id="jupiterAge"></p>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

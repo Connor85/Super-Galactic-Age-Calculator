@@ -1,6 +1,6 @@
 import { SuperGalacticAgeCalculator } from "../src/SuperGalacticAgeCalculator.js";
 describe("SuperGalacticAgeCalculator", function() {
-  let globalTestAge = new SuperGalacticAgeCalculator("1992-10-12", 26);
+  const globalTestAge = new SuperGalacticAgeCalculator("1992-10-12", 26);
   it("returns the users age on earth in seconds", function() {
     let today = new Date();
     let testDate = new Date(globalTestAge.birthday);
